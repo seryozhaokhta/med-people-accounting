@@ -1,5 +1,97 @@
-# Vue 3 + TypeScript + Vite
+# Учет работников медучреждения
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## О проекте
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+**Учет работников медучреждения** — это веб-приложение, разработанное с использованием [Vue.js 3](https://vuejs.org/), [TypeScript](https://www.typescriptlang.org/) и [Vite](https://vitejs.dev/). Приложение предназначено для управления данными о врачах и медсестрах в медицинском учреждении. Оно позволяет добавлять, редактировать и удалять записи о сотрудниках, а также сохраняет данные в `localStorage` для обеспечения постоянства информации при перезагрузке страницы.
+
+## Установка и запуск проекта
+
+### Предварительные требования
+
+- [Node.js](https://nodejs.org/) (версия 14 или выше)
+- [npm](https://www.npmjs.com/) (поставляется вместе с Node.js) или [Yarn](https://yarnpkg.com/)
+
+### Шаги по установке
+
+1. **Клонирование репозитория:**
+
+   ```bash
+   git clone https://github.com/seryozhaokhta/med-people-accounting.git
+   ```
+
+````
+
+2. **Переход в директорию проекта:**
+
+   ```bash
+   cd med-people-accounting
+   ```
+
+3. **Установка зависимостей:**
+
+   С помощью npm:
+
+   ```bash
+   npm install
+   ```
+
+   Или с помощью Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+### Запуск проекта
+
+Для запуска приложения в режиме разработки с горячей перезагрузкой выполните команду:
+
+С помощью npm:
+
+```bash
+npm run dev
+```
+
+Или с помощью Yarn:
+
+```bash
+yarn dev
+```
+
+Откройте [http://localhost:5173](http://localhost:5173) в вашем браузере, чтобы увидеть приложение в действии.
+
+### Сборка проекта для продакшена
+
+Для создания оптимизированной версии приложения для продакшена выполните команду:
+
+С помощью npm:
+
+```bash
+npm run build
+```
+
+Или с помощью Yarn:
+
+```bash
+yarn build
+```
+
+Собранные файлы будут находиться в папке `dist/`.
+
+### Предпросмотр собранного приложения
+
+Для предварительного просмотра собранного приложения используйте команду:
+
+С помощью npm:
+
+```bash
+npm run preview
+```
+
+Или с помощью Yarn:
+
+```bash
+yarn preview
+```
+
+Откройте [http://localhost:4173](http://localhost:4173) в вашем браузере.
+````
