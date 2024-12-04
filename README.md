@@ -1,4 +1,3 @@
-````markdown
 # Учет работников медучреждения
 
 ## О проекте
@@ -19,6 +18,7 @@
    ```bash
    git clone https://github.com/seryozhaokhta/med-people-accounting.git
    ```
+
 ````
 
 2. **Переход в директорию проекта:**
@@ -94,3 +94,4 @@ yarn preview
 ```
 
 Откройте [http://localhost:4173](http://localhost:4173) в вашем браузере.
+````
